@@ -1,0 +1,27 @@
+{
+  "name": "kafka.io",
+  "version": "0.1.0",
+  "description": "use kafka with friendly APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "haoxins/kafka.io",
+  "keywords": [
+    "kafka",
+    "async",
+    "await"
+  ],
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "dependencies": {
+    "kafka-node": "^1.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
